@@ -11,7 +11,7 @@ Current Section 7 (all torch-free):
 - `synthetic_verify.py` : Experiment A tests and numbers.
 - `fig_pipeline.py` : renders the three synthetic panels (`synthetic_cut/stability/rate.pdf`, $m=6000$) and copies them into `../PAPER/figures/`.
 - `make_label_efficiency_panel.py` : the CIFAR label-efficiency panel, built from `cache/probe_results.json`.
-- `rate_diagnostic.py` : the record behind the stability / $\operatorname{tr}\mathbf K$ rate wording. Keep it.
+- `rate_diagnostic.py` : the record behind the stability / ${tr}\mathbf K$ rate wording. Keep it.
 
 The CIFAR feature/probe pipeline (it produced `cache/probe_results.json`, the input to the label-efficiency panel) and two shared modules:
 
