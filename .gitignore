@@ -1,0 +1,15 @@
+# Python / venv
+.venv*/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Dataset and large cached binaries (regenerable; not worth versioning)
+data/
+cache/*.pt
+cache/*.npz
+
+# The JSON results and the figure under cache/ are NOT ignored, so the
+# numbers behind the paper figure stay tracked.

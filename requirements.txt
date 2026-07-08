@@ -1,0 +1,11 @@
+# Intel macOS (x86_64) pins.
+# torch 2.2.2 is the last release with Intel-Mac wheels, and it predates
+# NumPy 2.0, so numpy is held below 2 to avoid an import-time crash
+# ("Numpy is not available"). scipy and matplotlib both work fine under numpy 1.x.
+torch==2.2.2
+torchvision==0.17.2
+numpy<2
+scipy
+timm
+huggingface_hub
+matplotlib

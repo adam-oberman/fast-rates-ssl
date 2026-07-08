@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "bank_per_class": 100,
+    "n_anchors": 1000,
+    "views_per_anchor": 8,
+    "knn": 15
+  },
+  "graph_cut": {
+    "plain": 0.0983317568898201,
+    "symmetric": 0.1291549652814865,
+    "knn_k": 15
+  },
+  "weak": {
+    "model": {
+      "forward": 0.1344825029373169,
+      "backward": 0.15059063720703125,
+      "symmetric": 0.14230883953756002
+    },
+    "input": {
+      "forward": 0.7399032115936279,
+      "backward": 0.6473050537109375,
+      "symmetric": 0.6920571422371916
+    }
+  },
+  "aggressive": {
+    "model": {
+      "forward": 0.2038211226463318,
+      "backward": 0.19620126342773436,
+      "symmetric": 0.19997490286650846
+    },
+    "input": {
+      "forward": 0.8382412791252136,
+      "backward": 0.7722928145042127,
+      "symmetric": 0.8045916459230872
+    }
+  }
+}
