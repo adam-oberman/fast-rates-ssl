@@ -79,4 +79,3 @@ python make_label_efficiency_panel.py # the CIFAR panel from the cached probe re
 
 The graph estimator solves the transductive system $(J + \lambda L)F = JY$ on the symmetric normalized Laplacian $L$ of the kNN graph, one conjugate-gradient solve per class, then predicts the argmax. Error is always measured on the fixed unlabeled pool, never a held-out test set, to match the transductive statement. Features are L2-normalized before both the probe and the kNN, so cosine similarity is just the dot product.
 
-The earlier plateau-at-$R_{\mathrm{DA}}$ overlay was dropped: the literal "error floor equals the cut" claim was refuted on CIFAR and $\lambda/a$ was never pinned. The clean additive floor-vs-cut relation is shown instead in the synthetic Experiment A, where the constants are known.
